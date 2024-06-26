@@ -1,0 +1,16 @@
+[tool.ruff]
+# Same as Black.
+line-length = 90
+indent-width = 4
+
+exclude = [
+    "migrations",
+    ".*tests",
+]
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "single"
+
+[tool.ruff.lint.flake8-quotes]
+docstring-quotes = "single"
